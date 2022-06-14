@@ -1,0 +1,18 @@
+/* impostazioni di reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo header h1{
+    vertical-align: middle;
+}
+/* contenuto main */
+.container{
+    max-width: 600px;
+}
+.button-task{
+    display-inline:block;
+}
