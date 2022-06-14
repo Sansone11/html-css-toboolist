@@ -29,6 +29,24 @@
     list-style-type: none;
     display: inline-block;
 }
-strong{
+span{
     border-radius: 20px;
+}
+.color-blu{
+    background-color: aqua;
+}
+.color-lilla{
+    background-color: deeppink;
+}
+.color-orange{
+    background-color: coral;
+}
+.color-green{
+    background-color: rgb(13, 228, 49);
+}
+.color-light-green{
+    background-color: chartreuse;
+}
+.color-viola{
+    background-color: blueviolet;
 }
