@@ -6,13 +6,13 @@
 }
 
 
-.logo header h1{
-    vertical-align: middle;
+h1{
+    display: inline-block;
 }
 /* contenuto main */
 .container{
     max-width: 600px;
 }
 .button-task{
-    display-inline:block;
+    display:inline-block;
 }
