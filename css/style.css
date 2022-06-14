@@ -4,15 +4,20 @@
     margin: 0;
     padding: 0;
 }
+.debug *{
+    border: 2px solid red;
+    padding: 10px;
+}
 
-
-h1{
+.logo-header h1{
     display: inline-block;
+
 }
 /* contenuto main */
 .container{
     max-width: 600px;
 }
 .button-task{
-    display:inline-block;
+    display:inline;
+    width: 100%;
 }
