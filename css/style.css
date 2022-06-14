@@ -63,6 +63,9 @@ button{
     list-style-type: none;
     display: inline-block;
 }
+ul{
+    list-style-type: none;
+}
 span{
     border-radius: 20px;
 }
