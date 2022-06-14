@@ -13,6 +13,9 @@
     display: inline-block;
 
 }
+.logo-header{
+    padding-bottom: 50px;
+}
 /* contenuto main */
 .container{
     max-width: 600px;
