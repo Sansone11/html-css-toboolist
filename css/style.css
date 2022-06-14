@@ -5,25 +5,59 @@
     padding: 0;
 }
 .debug *{
-    border: 1px solid rgb(26, 24, 24);
+    border: 0px solid rgb(26, 24, 24);
     padding: 10px;
 }
 
-.logo-header h1{
-    display: inline-block;
-    padding-bottom: 20px;
-}
 .logo-header{
     line-height: 10px;
+    border: solid 2px cornflowerblue;
+
+}
+h1{
+    display: inline-block;
+}
+h1.logo-header{
+    padding-top: 50px;
+}
+.logo{
+    display:inline-block;
 }
 /* contenuto main */
+.contain-box{
+    border: solid 3px red;
+}
+.push{
+    background-color: rgb(23, 124, 219);
+    color: aliceblue;
+}
 .container{
     max-width: 1000px;
     margin: auto;
+    padding-bottom: 30px;
+    text-align: left;
 }
 .button-task{
     display:inline;
     width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    border: solid 2px blue;
+
+}
+
+button{
+    border-radius: 5px;
+}
+#button-color{
+    height: 15px;
+    background-color: aqua;
+    
+}
+/* liste */
+.list-title{
+    font-size: 30px;
+    list-style-type: &blacktriangledown;
 }
 .list strong{
     list-style-type: none;
@@ -32,21 +66,51 @@
 span{
     border-radius: 20px;
 }
+/* colori sfondi task */
 .color-blu{
     background-color: aqua;
+    color: aliceblue;
 }
 .color-lilla{
     background-color: deeppink;
+    color: aliceblue;
 }
 .color-orange{
     background-color: coral;
+    color: aliceblue;
 }
 .color-green{
     background-color: rgb(13, 228, 49);
+    color: aliceblue;
 }
 .color-light-green{
     background-color: chartreuse;
+    color: aliceblue;
 }
 .color-viola{
     background-color: blueviolet;
+    color: aliceblue;
+}
+li{
+    font-size: 20px;
+    color: black;
+}
+/* entity cerchiate */
+.green-check{
+    border-radius: 50%;
+    border: 1px solid green;
+    text-align: center;
+    color: green;
+    height: 8px;
+    width: 8px;
+    text-align: center;
+}
+.unchecked{
+    border-radius: 50%;
+    border: 1px solid red;
+    text-align: center;
+    color:red;
+    height: 8px;
+    width: 8px;
+    text-align: center;
 }
