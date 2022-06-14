@@ -5,7 +5,7 @@
     padding: 0;
 }
 .debug *{
-    border: 2px solid red;
+    border: 1px solid rgb(26, 24, 24);
     padding: 10px;
 }
 
@@ -18,9 +18,16 @@
 }
 /* contenuto main */
 .container{
-    max-width: 600px;
+    max-width: 1000px;
+    margin: auto;
 }
 .button-task{
     display:inline;
     width: 100%;
+}
+.list{
+    list-style-type: none;
+}
+strong{
+    display: inline-block;
 }
