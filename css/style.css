@@ -11,10 +11,10 @@
 
 .logo-header h1{
     display: inline-block;
-
+    padding-bottom: 20px;
 }
 .logo-header{
-    padding-bottom: 50px;
+    line-height: 10px;
 }
 /* contenuto main */
 .container{
@@ -25,9 +25,10 @@
     display:inline;
     width: 100%;
 }
-.list{
+.list strong{
     list-style-type: none;
+    display: inline-block;
 }
 strong{
-    display: inline-block;
+    border-radius: 20px;
 }
