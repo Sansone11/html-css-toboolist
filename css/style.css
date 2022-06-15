@@ -12,36 +12,32 @@
 
 .logo-header{
     line-height: 10px;
-    border: solid 2px cornflowerblue;
-    margin-bottom: 50px;
+    border-bottom: solid 2px lavender ;
+    margin-bottom: 30px;
 
 }
 h1{
     display: inline-block;
 }
 .button-contain{
-    height: 80px;
-    width: 100%;
-    border-top: solid 2px lightslategray;
-    border-bottom: solid 2px lightslategray;
+    box-sizing: border-box;
+    height: 60px;
+    border-top: solid 2px lavender;
+    border-bottom: solid 2px lavender;
     border-collapse: collapse;
     text-align: left;
-    padding: top 25px;;
 }
 h1.logo-header{
     padding-top: 50px;
     margin-bottom: 200px;
     height: 80px;
     width: 100%;
-    border: solid 2px lightslategray;
+    border: solid 2px lavender;
 }
 .logo{
     display:inline-block;
 }
 /* contenuto main */
-.contain-box{
-    border: solid 3px red;
-}
 .push{
     background-color: rgb(23, 124, 219);
     color: aliceblue;
@@ -51,9 +47,9 @@ h1.logo-header{
     margin: auto;
     padding-bottom: 100px;
     text-align: left;
-    border-left:solid 2px lightslategray ;
-    border-right: solid 2px lightgrey;
-    border-top: solid 2 px lightgrey;
+    border-left:solid 2 px lavender ;
+    border-right: solid 2px lavender;
+    border-top: solid 2 px lavender;
     
 }
 .button-task{
@@ -120,7 +116,7 @@ li{
 /* entity cerchiate */
 .green-check{
     border-radius: 50%;
-    border: 1px solid green;
+    border: 2px solid green;
     text-align: center;
     color: green;
     height: 8px;
@@ -129,7 +125,7 @@ li{
 }
 .unchecked{
     border-radius: 50%;
-    border: 1px solid red;
+    border: 2px solid red;
     text-align: center;
     color:red;
     height: 8px;
